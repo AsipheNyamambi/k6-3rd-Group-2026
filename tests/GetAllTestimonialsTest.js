@@ -1,7 +1,7 @@
-import http from 'k6/http';
-import { URLS } from '../config/urls.js';
-import{ getAllTestimonials } from '../requests/GetRequests.js';
+
 import { sleep } from 'k6';
+import { TEST_CONFIG } from '../config/constants.js';
+import{ getAllTestimonials } from '../requests/GetRequests.js';
 
 export const options = {
     vus: TEST_CONFIG.vus,
