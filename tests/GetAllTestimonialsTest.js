@@ -12,3 +12,5 @@ export default function () {
     getAllTestimonials();
     sleep(TEST_CONFIG.sleep);
 }
+
+//k6 run tests/GetAllTestimonialsTest.js
