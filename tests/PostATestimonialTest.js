@@ -13,6 +13,8 @@ export default function () {
     const response = postMyTestimonial(PAYLOADS.postTestimonial,TOKEN);
     sleep(TEST_CONFIG.sleep);
 
+   
+   
     console.log('Response status: ' + response.status);
     console.log('Response body: ' + response.body);
 
@@ -22,5 +24,4 @@ export default function () {
     });
 
 }
-
-// k6 run tests/GetAllTestimonialsTest.js
+// k6 run tests/PostATestimonialTest.js

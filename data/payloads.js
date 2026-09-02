@@ -1,12 +1,13 @@
 export const PAYLOADS = {
     postTestimonial:
     {
-        "title": "TEST",
+        "title": "Asiphe Nyamambi",
         "content": "TEST",
+        "email": "asiphe@gmail.com",
+        "name": "Asiphe Nyamambi",
         "rating": 5,
-        "name": "Avee Nog",
-        "userName": "Avee Nog",
-        "author": "Avee Nog",
-        "email": "aveetestuser@gmail.com"
+        "title": "Test",
+        "userName": "Asiphe Nyamambi",
+         
     }
 }
